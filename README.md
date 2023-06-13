@@ -1,6 +1,6 @@
 [![Flmngr file manager logo](https://flmngr.com/img/favicons/favicon-64x64.png)](https://flmngr.com)
 
-# Flmngr Nest + Flmngr sample
+# Flmngr Express + Flmngr sample
 
 > Example of integrating [Flmngr module for Express](https://flmngr.com/doc/install-file-manager-server-node-express) into your Express app.
 
@@ -8,7 +8,7 @@ See `src/index.ts` to see how to easily add Flmngr routes using `bindFlmngr(..)`
 
 `nginx.conf` file shows a sample of how to route external requests to the internal app with Flmngr handler when using NGinx.
 
-**Hint:** you can fork the sample if starting a new Nest project where need the Flmngr file manager to be included.
+**Hint:** you can fork the sample if starting a new Express project where need the Flmngr file manager to be included.
 
 
 ## About Flmngr
