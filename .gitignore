@@ -1,7 +1,7 @@
 .idea
 node_modules
 dist
-files
+files/*
 !files/Alberta-Canada.jpg
 !files/Arizona.jpg
 !files/Arnarstapi.jpg
