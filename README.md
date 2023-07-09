@@ -1,6 +1,6 @@
 [![Flmngr file manager logo](https://flmngr.com/img/favicons/favicon-64x64.png)](https://flmngr.com)
 
-# Flmngr Express + Flmngr sample
+# Express + Flmngr sample
 
 > Example of integrating [Flmngr module for Express](https://flmngr.com/doc/install-file-manager-server-node-express) into your Express app.
 

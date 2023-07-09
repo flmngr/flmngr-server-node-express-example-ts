@@ -13,6 +13,20 @@ bindFlmngr({
     dirFiles: "./files"
 });
 
+// These two routes are for the demo on the index page of the website
+// In real app you can remove them, and 'public/' contents too.
+app.get("/", (req, res) => {
+    require('fs').readFile('./public/flmngr-example.html', 'utf8', (err: any, text: string) => {
+        res.send(text);
+    });
+});
+app.get("/flmngr-example.js", (req, res) => {
+    require('fs').readFile('./public/flmngr-example.js', 'utf8', (err: any, text: string) => {
+        res.contentType("text/javascript")
+        res.send(text);
+    });
+});
+
 /*
 
   Here you can use your own routes that your app/website will have:
