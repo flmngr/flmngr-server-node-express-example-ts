@@ -4,6 +4,8 @@
 
 > Example of integrating [Flmngr module for Express](https://flmngr.com/doc/install-file-manager-server-node-express) into your Express app.
 
+Fork this sample and run `npm run start` to play with a full featured demo of Flmngr file manager on your Express website.
+
 See `src/index.ts` to see how to easily add Flmngr routes using `bindFlmngr(..)` function.
 
 `nginx.conf` file shows a sample of how to route external requests to the internal app with Flmngr handler when using NGinx.

@@ -38,11 +38,15 @@ app.get("/flmngr-example.js", (req, res) => {
 
  */
 
+let HOST = '127.0.0.1';
+let PORT = 3000;
 app.listen(
-    3000,
-    '127.0.0.1',
+    PORT,
+    HOST,
     function() {
         // Server started successfully
-        console.log("Express server with Flmngr started");
+        console.log("Express server with Flmngr started")
+        console.log("Flmngr.urlFileManager = \"http://" + HOST + ":" + PORT + "/flmngr\"");
+        console.log("Live demo: http://" + HOST + ":" + PORT + "");
     }
 );
