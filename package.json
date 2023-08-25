@@ -1,7 +1,7 @@
 {
   "name": "@flmngr/flmngr-server-node-express-example-ts",
   "description": "Example of using Flmngr Node Express module in your TypeScript app or website",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "private": true,
   "main": "./dist/index.js",
   "author": {
@@ -19,7 +19,7 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^4",
-    "@flmngr/flmngr-server-node-express": "^1.5"
+    "@flmngr/flmngr-server-node-express": "^1.5.3"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
