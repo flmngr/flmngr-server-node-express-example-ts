@@ -1,5 +1,5 @@
 import express from "express";
-import {bindFlmngr} from "@flmngr/flmngr-server-node-express";
+import {bindFlmngr} from "@edsdk/flmngr-server-node-express";
 
 
 // Create Express app
